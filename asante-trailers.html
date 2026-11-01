@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asante Trailers Mahikeng | Trailer Hire &amp; Servicing</title>
+  <meta name="description" content="Asante Trailers Mahikeng — reliable trailer hire and servicing in Mmabatho. Luggage, box, utility and heavy-duty trailers. Call 079 167 1154.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+/* Asante Trailers Mahikeng */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#1a1d21;
+  --ink-soft:#4a5560;
+  --ink-muted:#7a8490;
+  --bg:#f6f7f8;
+  --card:#ffffff;
+  --border:#e2e6ea;
+  --amber:#e67e22;
+  --amber-dark:#c96a15;
+  --amber-soft:#fef4eb;
+  --steel:#2c3e50;
+  --steel-light:#34495e;
+  --max:1080px;
+  --font:Inter,system-ui,-apple-system,sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-weight:700;line-height:1.2;letter-spacing:-0.02em}
+
+.demo{background:var(--steel);color:#fff;text-align:center;padding:8px 14px;font-size:.72rem;font-weight:600;letter-spacing:.04em}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.97);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+nav .in{max-width:var(--max);margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--steel)}
+.brand .mark{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--amber),var(--amber-dark));display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.2rem}
+.brand span{display:flex;flex-direction:column;line-height:1.15}
+.brand small{font-size:.62rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
+.nav-links{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.nav-links a{font-size:.84rem;font-weight:500;color:var(--ink-soft);padding:8px 12px;border-radius:8px}
+.nav-links a:hover{color:var(--steel);background:var(--bg)}
+.nav-cta{background:var(--amber)!important;color:#fff!important;border-radius:40px!important;padding:10px 16px!important;font-weight:600!important;font-size:.8rem!important}
+.nav-cta:hover{background:var(--amber-dark)!important}
+.menu-btn{display:none;background:none;border:none;font-size:1.4rem;color:var(--steel);cursor:pointer}
+
+.hero{padding:110px 20px 56px;background:linear-gradient(160deg,#1a1d21 0%,#2c3e50 55%,#34495e 100%);color:#fff}
+.hero .in{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+.hero-badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin-bottom:14px}
+.hero h1{font-size:clamp(2rem,5vw,2.9rem);margin-bottom:14px;color:#fff}
+.hero h1 em{font-style:normal;color:var(--amber)}
+.hero p{color:rgba(255,255,255,.78);font-size:1.02rem;max-width:440px;margin-bottom:24px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:40px;font-weight:600;font-size:.88rem;border:none;cursor:pointer;transition:.2s}
+.btn-amber{background:var(--amber);color:#fff}
+.btn-amber:hover{background:var(--amber-dark);transform:translateY(-2px)}
+.btn-outline-light{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.45)}
+.btn-outline-light:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn-outline{background:transparent;color:var(--steel);border:1.5px solid var(--steel)}
+.btn-outline:hover{background:var(--steel);color:#fff}
+.hero-meta{display:flex;flex-wrap:wrap;gap:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:.84rem;color:rgba(255,255,255,.7)}
+.hero-meta strong{display:block;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);margin-bottom:2px}
+.hero-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:28px 24px}
+.hero-card h3{color:#fff;font-size:1.15rem;margin-bottom:14px}
+.hero-card ul{list-style:none}
+.hero-card li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.8);font-size:.9rem;display:flex;gap:10px;align-items:center}
+.hero-card li:last-child{border-bottom:none}
+.hero-card li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--amber);flex-shrink:0}
+
+section{padding:64px 20px}
+.in{max-width:var(--max);margin:0 auto}
+.label{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-bottom:8px}
+.section-title{font-size:clamp(1.7rem,3.5vw,2.2rem);margin-bottom:10px;color:var(--steel)}
+.section-intro{color:var(--ink-soft);max-width:520px;margin-bottom:28px;font-size:.95rem}
+
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px 20px;box-shadow:0 4px 16px rgba(0,0,0,.04);transition:.25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
+.card .icon{font-size:1.6rem;margin-bottom:12px}
+.card h3{font-size:1.1rem;margin-bottom:8px;color:var(--steel)}
+.card p{font-size:.88rem;color:var(--ink-soft);line-height:1.6}
+.card .size{display:inline-block;margin-top:10px;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--amber);background:var(--amber-soft);padding:4px 10px;border-radius:20px}
+
+.band{background:var(--steel);color:#fff;text-align:center;padding:56px 20px}
+.band h2{color:#fff;font-size:clamp(1.6rem,3.5vw,2.1rem);margin-bottom:10px}
+.band p{color:rgba(255,255,255,.75);margin-bottom:22px}
+.band .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:24px;box-shadow:0 4px 16px rgba(0,0,0,.04)}
+.contact-box h3{color:var(--steel);font-size:1.1rem;margin-bottom:12px}
+.contact-box p,.contact-box a{font-size:.9rem;color:var(--ink-soft);line-height:1.65}
+.contact-box a{color:var(--amber);font-weight:600}
+.contact-box a:hover{color:var(--amber-dark)}
+.map{border-radius:14px;overflow:hidden;border:1px solid var(--border);min-height:260px;background:#e8ecf0}
+.map iframe{width:100%;height:100%;min-height:260px;border:0}
+
+footer{background:var(--ink);color:rgba(255,255,255,.5);text-align:center;padding:40px 20px 24px}
+footer .name{color:#fff;font-weight:700;font-size:1.15rem;margin-bottom:4px}
+footer .tag{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);font-weight:600;margin-bottom:16px}
+footer .links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,.1)}
+footer .links a{font-size:.84rem;color:rgba(255,255,255,.5)}
+footer .links a:hover{color:#fff}
+footer .copy{font-size:.72rem;color:rgba(255,255,255,.3)}
+
+.float{position:fixed;bottom:22px;right:22px;z-index:40;width:54px;height:54px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 6px 20px rgba(37,211,102,.4)}
+.float:hover{transform:scale(1.08)}
+
+@media(max-width:800px){
+  .hero .in,.grid-3,.grid-2,.contact-grid{grid-template-columns:1fr}
+  .nav-links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:#fff;padding:12px;border-bottom:1px solid var(--border);align-items:flex-start}
+  .nav-links.open{display:flex}
+  .menu-btn{display:block}
+  .hero{padding:100px 16px 44px}
+  section{padding:48px 16px}
+}
+
+  </style>
+</head>
+<body>
+  <div class="demo">DEMO · Asante Trailers Mahikeng — trailer hire &amp; servicing</div>
+  <nav>
+    <div class="in">
+      <a href="#top" class="brand">
+        <div class="mark">🚛</div>
+        <span>Asante Trailers<small>Mahikeng · Mmabatho</small></span>
+      </a>
+      <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+      <div class="nav-links">
+        <a href="#trailers">Trailers</a>
+        <a href="#services">Services</a>
+        <a href="#visit">Visit us</a>
+        <a href="tel:0791671154" class="nav-cta">079 167 1154</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="in">
+      <div>
+        <div class="hero-badge">Trailer hire · Servicing · Mmabatho</div>
+        <h1>Reliable trailers.<br><em>Ready when you are.</em></h1>
+        <p>Asante Trailers supplies well-serviced luggage, box, utility and heavy-duty trailers for hire in Mahikeng and Mmabatho — plus maintenance for your own trailer.</p>
+        <div class="hero-actions">
+          <a href="tel:0791671154" class="btn btn-amber">Call 079 167 1154</a>
+          <a href="https://wa.me/27791671154?text=Hi%20Asante%20Trailers%2C%20I%27d%20like%20to%20enquire%20about%20trailer%20hire." class="btn btn-outline-light" target="_blank" rel="noopener">WhatsApp us</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>Location</strong>Unit 8 · BM Mokitime Drive</div>
+          <div><strong>Hours</strong>Mon–Fri 07:00–18:00</div>
+          <div><strong>Also</strong>084 578 4121</div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Why Asante</h3>
+        <ul>
+          <li>Well-serviced trailers ready to hitch</li>
+          <li>Sizes from 2m to 5m</li>
+          <li>Luggage, box, lid &amp; utility options</li>
+          <li>On-site servicing &amp; maintenance</li>
+          <li>Local Mahikeng / Mmabatho base</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="trailers">
+    <div class="in">
+      <div class="label">Fleet</div>
+      <h2 class="section-title">Trailers for every job</h2>
+      <p class="section-intro">From weekend luggage runs to heavier loads — hire a trailer that fits the trip. Call to confirm availability and sizing.</p>
+      <div class="grid-3">
+        <div class="card">
+          <div class="icon">🧳</div>
+          <h3>Luggage trailers</h3>
+          <p>Ideal for household moves, student transport and weekend trips. Secure and easy to tow.</p>
+          <span class="size">From 2m</span>
+        </div>
+        <div class="card">
+          <div class="icon">📦</div>
+          <h3>Box &amp; lid trailers</h3>
+          <p>Enclosed protection for goods that need to stay dry and secure on the road.</p>
+          <span class="size">Box · Lid</span>
+        </div>
+        <div class="card">
+          <div class="icon">🔧</div>
+          <h3>Utility &amp; heavy-duty</h3>
+          <p>Open utility and heavier options for building materials, equipment and tougher loads.</p>
+          <span class="size">Up to 5m</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" style="background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="in">
+      <div class="label">What we do</div>
+      <h2 class="section-title">Hire &amp; servicing</h2>
+      <p class="section-intro">One local yard for rental and keeping trailers road-ready.</p>
+      <div class="grid-2">
+        <div class="card">
+          <div class="icon">🔑</div>
+          <h3>Trailer rentals</h3>
+          <p>Short-term hire of luggage, box, lid, utility and heavy-duty trailers. Sizes typically from 2m to 5m. Call or WhatsApp to check what’s available for your dates.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛠️</div>
+          <h3>Servicing &amp; maintenance</h3>
+          <p>General upkeep and servicing for trailers you hire from us — and for private trailers that need attention before the next trip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="in">
+      <div class="label">Find us</div>
+      <h2 class="section-title">Visit Asante Trailers</h2>
+      <p class="section-intro">Based in Mmabatho — easy to reach for collection and return.</p>
+      <div class="contact-grid">
+        <div>
+          <div class="contact-box" style="margin-bottom:14px">
+            <h3>Contact</h3>
+            <p>
+              <a href="tel:0791671154">079 167 1154</a><br>
+              <a href="tel:0845784121">084 578 4121</a><br>
+              <a href="mailto:khumalomolefe24@gmail.com">khumalomolefe24@gmail.com</a>
+            </p>
+          </div>
+          <div class="contact-box" style="margin-bottom:14px">
+            <h3>Address</h3>
+            <p>2418 BM Mokitime Drive<br>Unit 8, Mmabatho<br>Mahikeng, 2790</p>
+            <p style="margin-top:8px;font-size:.84rem">Also noted: opposite Sasol Garage, Unit 2</p>
+          </div>
+          <div class="contact-box">
+            <h3>Hours</h3>
+            <p>Monday – Friday: 07:00 – 18:00<br>Weekends: please call ahead</p>
+          </div>
+        </div>
+        <div class="map">
+          <iframe title="Asante Trailers map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=2418+BM+Mokitime+Drive,+Unit+8,+Mmabatho,+Mahikeng+2790&amp;output=embed"></iframe>
+        </div>
+      </div>
+      <p style="margin-top:24px">
+        <a class="btn btn-amber" href="https://www.google.com/maps/dir/?api=1&destination=2418+BM+Mokitime+Drive,+Unit+8,+Mmabatho,+Mahikeng+2790" target="_blank" rel="noopener noreferrer">Get directions</a>
+        <a class="btn btn-outline" style="margin-left:10px" href="https://wa.me/27791671154?text=Hi%20Asante%20Trailers%2C%20I%27d%20like%20to%20enquire%20about%20trailer%20hire." target="_blank" rel="noopener">WhatsApp</a>
+      </p>
+    </div>
+  </section>
+
+  <div class="band">
+    <h2>Need a trailer this week?</h2>
+    <p>Call or WhatsApp — we’ll check availability and size for your load.</p>
+    <div class="actions">
+      <a href="tel:0791671154" class="btn btn-amber">079 167 1154</a>
+      <a href="tel:0845784121" class="btn btn-outline-light">084 578 4121</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="name">Asante Trailers Mahikeng</div>
+    <div class="tag">Trailer hire &amp; servicing · Mmabatho</div>
+    <div class="links">
+      <a href="#trailers">Trailers</a>
+      <a href="#services">Services</a>
+      <a href="#visit">Visit us</a>
+      <a href="tel:0791671154">079 167 1154</a>
+    </div>
+    <div class="copy">© 2026 Asante Trailers Mahikeng · Demo site</div>
+  </footer>
+
+  <a class="float" href="https://wa.me/27791671154?text=Hi%20Asante%20Trailers%2C%20I%27d%20like%20to%20enquire%20about%20trailer%20hire." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+</body>
+</html>
